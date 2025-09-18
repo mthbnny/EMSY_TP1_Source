@@ -2,7 +2,7 @@
 
 ## Groupe 
 
-- vos noms 
+- Luc Derré - Bonny Mathéo
 
 ## But 
 
@@ -49,7 +49,7 @@ Cette manipulation a pour but d'installer une distribution linux [Sparky Linux](
 
 Lancement du live CD : 
 
-[Placer votre capture d'écran]() 
+![Virtual disk](/Images/Linux-dep.png) 
 
 Shell Linux : 
 
