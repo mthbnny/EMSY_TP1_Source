@@ -49,7 +49,7 @@ Cette manipulation a pour but d'installer une distribution linux [Sparky Linux](
 
 Lancement du live CD : 
 
-![Virtual disk](/Images/Linux-dep.png) 
+![Virtual disk](/Images/Linux-dep1.png) 
 
 Shell Linux : 
 
