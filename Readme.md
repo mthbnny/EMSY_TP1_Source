@@ -76,11 +76,12 @@ H. Déplacez-vous à la **racine du système** en utilisant la commande suivante
 
 I. Affichez le contenu de la racine avec la commande : `ls –l`	
 
-![Virtual disk](/Images/ls-s.png) 
+![Virtual disk](/Images/ls -l.png) 
 
 Q5. Que signifie l'option `-l` avec la commande `ls` 
 
-Qwerty
+ça liste les fichiers du système
+et le -l liste les options du fichier
 
 Q6. Décrypter la ligne où se trouve le répertoire **home**    
 
