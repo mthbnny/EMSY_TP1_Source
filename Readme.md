@@ -83,19 +83,19 @@ Shell Linux :
 
 Q1. Comment se nomme le clavier américain ?
 
-> votre réponse ?!
+Qwerty
 
 Q2. Comment se nomme le clavier suisse-romand ?
 
-> votre réponse ?!
+Qwertz
 
 Q3. Comment se nomme le clavier français ? 
 
-> votre réponse ?!
+Azerty-l
 
 Q4. Que signifie l'option `-l` avec la commande `ls` 
 
-> votre réponse ?!
+> ça affiche la liste longue
 
 Q5. Décrypter la ligne où se trouve le répertoire **home**    
 
