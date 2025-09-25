@@ -80,7 +80,7 @@ I. Affichez le contenu de la racine avec la commande : `ls –l`
 Q5. Que signifie l'option `-l` avec la commande `ls` 
 
 >ça liste les fichiers du système
->et le -l liste les options du fichier
+>et le `-l` liste les options du fichier
 
 Q6. Décrypter la ligne où se trouve le répertoire **home**    
 ![Virtual disk](/Images/home.png) 
@@ -91,26 +91,26 @@ J. Créez un répertoire de travail nommé « EMSY_VosInitiales» dans quel doss
 
 >dans le répertoire home car c'est un répertoire personnel
 >
->.cd home live mkdir
+>.cd home `mkdir EMSY_MBY`
 
 
 Q7. Si vous créez un répertoire de travail (pour éditer/sauvegarder des fichiers), dans quelle **répertoire racine** vous vous placez ? 
 
-> ça affiche la liste longue
+> home
 
 
 K. Dans ce répertoire, créez un fichier texte que vous nommerez `TESTSLO_XXX_XXX` et éditez celui en écrivant un texte, exemple : "TP linux by XXX et XXX".
 	Utiliser la commande `vi`
 
-> votre commande ?! 
+> `vi TESTSLO_LDE_MBY`
 
 Q9. dans le répertoire `/home`, pouvez-vous éditez un fichier uniquement avec la commande `vi` 
 
-> votre réponse ?!
+> oui
 
 Q10. Si vous éteignez la machine virtuelle et que vous la rallumez, est-ce que le répertoire créé ci-dessus existe toujours (justifiez votre réponse) ? 
 
-> votre réponse ?!
+> Oui car éteindre  et allumer ne supprime pas les fichiers stockés sur le disque virtuel, et les dossiers dans le home sont écrits sur ce disque virtuel
 
 L. Tapez la commande `ls -l /dev/sda` 
 
