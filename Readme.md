@@ -117,7 +117,7 @@ L. Tapez la commande `ls -l /dev/sda`
 
 Q11. Que signifie **sda** ? 
 
-> votre réponse ?!
+> SDA signifie que c'est le premier disque dur SCSI le disque dur principal(small Computer system Interface)
 
 Q12. Décrypter la réponse après avoir taper la commande `ls -l /dev/sda` -> voir résultat point 13.
 
