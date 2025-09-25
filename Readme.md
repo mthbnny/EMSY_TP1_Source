@@ -114,15 +114,17 @@ Q10. Si vous éteignez la machine virtuelle et que vous la rallumez, est-ce que 
 
 L. Tapez la commande `ls -l /dev/sda` 
 
-![Placer votre capture d'écran]() 
+![Virtual disk](/Images/devsda.png) 
 
 Q11. Que signifie **sda** ? 
 
 > SDA signifie que c'est le premier disque dur SCSI le disque dur principal(small Computer system Interface)
+> lwdisque entier de la VM
 
 Q12. Décrypter la réponse après avoir taper la commande `ls -l /dev/sda` -> voir résultat point 13.
 
-> votre réponse ?!
+> b: indique un fichier de périphérique bloc. rw-rw---- : les permissions du fichier. 1 : le nombre de liens physiques vers le fichier . root: le propriétaire. disk: le groupe auquel appartient le fichier 8,0: numéros majeur et mineur.
+> la date et l'heure et enfin le disque entier
 
 
 Q14. A quoi sert la partition swap ? Est-ce que ce principe existe sur les OS Microsoft Windows ?
