@@ -59,15 +59,15 @@ Shell Linux :
 
 Q1. disposition du clavier américain ?
 
-Qwerty
+>Qwerty
 
 Q2. disposition du clavier suisse-romand ?
 
-Qwertz
+>Qwertz
 
 Q3. disposition du le clavier français ? 
 
-Azerty
+>Azerty
 
 
 H. Déplacez-vous à la **racine du système** en utilisant la commande suivante : `cd` 
@@ -80,14 +80,13 @@ I. Affichez le contenu de la racine avec la commande : `ls –l`
 
 Q5. Que signifie l'option `-l` avec la commande `ls` 
 
-ça liste les fichiers du système
-et le -l liste les options du fichier
+>ça liste les fichiers du système
+>et le -l liste les options du fichier
 
 Q6. Décrypter la ligne où se trouve le répertoire **home**    
-
+>
 [Placer votre capture d'écran]()
 
-Qwertz
 
 J. Créez un répertoire de travail nommé « EMSY_VosInitiales» dans quel dossier racine allez-vous le placer (justifiez votre réponse) et quelle commande allez-vous utiliser. 
 
