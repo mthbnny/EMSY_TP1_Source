@@ -83,12 +83,15 @@ Q5. Que signifie l'option `-l` avec la commande `ls`
 >et le -l liste les options du fichier
 
 Q6. Décrypter la ligne où se trouve le répertoire **home**    
->
-[Placer votre capture d'écran]()
+![Virtual disk](/Images/home.png) 
 
+>drwxr-xr-x:(d)indique un répertoire (rwx) qui correspond aux permissions du propriétaire, le r pour le read du contenu, le w pour write pour ^tre capable d'ajouter/enlever des fichiers et sous répertoir, x pour accès au contenu du répertoire et aux fichiers qu'il contient. r-x correspond au droit pour le groupe et x autorise l'accès au répertoire, - indique qu'il n'y a pas de permission d'écrire par le groupe et x autorise l'accès au répertoire. le deuxième r-x correspond aux droit pour les autres utilisateurs. 1 root root indique le nombre de personnes liées au dossier. Le premier root indique l'utilisateur qui possède le répertoire et le deuxième indique le groupe auquel appartient au répertoire. Le nombre 60 correspond a l'espace utilisé en octet. Enfin la date est indiquée en format (mois/jours/heure).
 
 J. Créez un répertoire de travail nommé « EMSY_VosInitiales» dans quel dossier racine allez-vous le placer (justifiez votre réponse) et quelle commande allez-vous utiliser. 
 
+>dans le répertoire home car c'est un répertoire personnel
+>
+>.cd home live mkdir
 
 
 Q7. Si vous créez un répertoire de travail (pour éditer/sauvegarder des fichiers), dans quelle **répertoire racine** vous vous placez ? 
