@@ -85,7 +85,21 @@ Q5. Que signifie l'option `-l` avec la commande `ls`
 Q6. Décrypter la ligne où se trouve le répertoire **home**    
 ![Virtual disk](/Images/home.png) 
 
->drwxr-xr-x:(d)indique un répertoire (rwx) qui correspond aux permissions du propriétaire, le r pour le read du contenu, le w pour write pour ^tre capable d'ajouter/enlever des fichiers et sous répertoir, x pour accès au contenu du répertoire et aux fichiers qu'il contient. r-x correspond au droit pour le groupe et x autorise l'accès au répertoire, - indique qu'il n'y a pas de permission d'écrire par le groupe et x autorise l'accès au répertoire. le deuxième r-x correspond aux droit pour les autres utilisateurs. 1 root root indique le nombre de personnes liées au dossier. Le premier root indique l'utilisateur qui possède le répertoire et le deuxième indique le groupe auquel appartient au répertoire. Le nombre 60 correspond a l'espace utilisé en octet. Enfin la date est indiquée en format (mois/jours/heure).
+>drwxr-xr-x:(d)indique un répertoire (rwx) qui correspond aux permissions du propriétaire, le r pour le read du contenu, le w pour write pour être capable d'ajouter/enlever des fichiers et sous répertoir, x pour accès au contenu du répertoire et aux fichiers qu'il contient.
+>
+> r-x correspond au droit pour le groupe et x autorise l'accès au répertoire,
+>
+>'-' indique qu'il n'y a pas de permission d'écrire par le groupe et x autorise l'accès au répertoire.
+>
+> le deuxième r-x correspond aux droit pour les autres utilisateurs.
+>
+> 1 root root indique le nombre de personnes liées au dossier.
+>
+> Le premier root indique l'utilisateur qui possède le répertoire et le deuxième indique le groupe auquel appartient au répertoire.
+>
+> Le nombre 60 correspond a l'espace utilisé en octet.
+>
+> Enfin la date est indiquée en format (mois/jours/heure).
 
 J. Créez un répertoire de travail nommé « EMSY_VosInitiales» dans quel dossier racine allez-vous le placer (justifiez votre réponse) et quelle commande allez-vous utiliser. 
 
@@ -119,27 +133,48 @@ L. Tapez la commande `ls -l /dev/sda`
 Q11. Que signifie **sda** ? 
 
 > SDA signifie que c'est le premier disque dur SCSI le disque dur principal(small Computer system Interface)
-> lwdisque entier de la VM
+> le disque entier de la VM
 
 Q12. Décrypter la réponse après avoir taper la commande `ls -l /dev/sda` -> voir résultat point 13.
 
 > b: indique un fichier de périphérique bloc. rw-rw---- : les permissions du fichier. 1 : le nombre de liens physiques vers le fichier . root: le propriétaire. disk: le groupe auquel appartient le fichier 8,0: numéros majeur et mineur.
+> 
 > la date et l'heure et enfin le disque entier
+
 
 Q13. Quelle est la taille de disque minimum recommandée pour installer la distribution Sparky ?
 
->100MB
+>10G pour la recommandée standard
+>
+>20G pour la multimédia
+>
+>2G pou la version en ligne (CLI)
+>
+![Virtual disk](/Images/console.png) 
+
 
 Q14. A quoi sert la partition swap ? Est-ce que ce principe existe sur les OS Microsoft Windows ?
+
+>c'est une section dédiée du disque dur utilisée comme mémoire virtuelle. C'est un endroit d'overflow dédié pour la RAM du système
+>
+>ça propose du stockage supplémentaire
 
 
 Q15. Quel format pourriez-vous utiliser pour la 3ème partition afin qu’elle soit également accessible depuis un OS Microsoft ?
 
+>Microsoft basic data qui est une partition de type exFAT compatible avec windows
+
 
 Q16. Durant l’installation, on vous demande deux noms d’utilisateur. A quoi correspondent-ils ?
 
+>un super utilisateur(admin)
+>
+>un utilisateur normal 
+
 
 N. Après l’installation de Linux, prenez une capture d’écran du démarrage de votre système (GRUB).
+
+![install image disk](/Images/GRUB.jfif) 
 
 
 O.Trouvez la ou les lignes de commande permettant de changer le clavier (clavier suisse romand trouvable sous « German (Switzerland)) et procédez à la configuration du clavier.
@@ -150,6 +185,8 @@ nano -version
 
 
 Q17. À quoi sert « nano » ?
+
+>c'est un éditeur de texte pour écrire dans les fichiers qui peut être lancé via une commande
 
 
 Q.Testez si l’application « git » est installée sur votre distribution, si ce n’est pas le cas installez un client git.
