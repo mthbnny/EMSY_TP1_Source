@@ -179,10 +179,17 @@ N. Après l’installation de Linux, prenez une capture d’écran du démarrage
 
 O.Trouvez la ou les lignes de commande permettant de changer le clavier (clavier suisse romand trouvable sous « German (Switzerland)) et procédez à la configuration du clavier.
 
+`sudo nano /etc/default/keyboard`
+![install image disk](/Images/language.png) 
+
+>afin d'obtenir les modification il faut redémarrer la VM
 
 P.Testez si l’application « nano » est installée sur votre machine, tapez la commande :
-nano -version
+`nano --version`
 
+![install image disk](/Images/nano.png) 
+
+>on voit la dernière version du programme nano
 
 Q17. À quoi sert « nano » ?
 
@@ -194,14 +201,23 @@ Q.Testez si l’application « git » est installée sur votre distribution, si 
 
 Q18. Comment savoir si « git » est déjà installé ?
 
+`git --version`
+
+>après avoir fait cette commande le bash ne trouve pas la commande
 
 Q19. Quelle(s) commande(s) utilisez-vous pour l’installer ?
+
+`sudo apt-get install git`
 
 
 Q20. Que veut dire « apt » ?
 
+>apt sinifie est le gestionnaire d'installation/desinstallation des applications (logiciels)
+
 
 Q21. Est-ce que cette commande peut être utilisée sur toutes les distributions Linux ?
+
+>seulement sur les distibutions basées sur Ubuntu/Debian/Mint
 
 
 LABO EMSY ETML-ES
