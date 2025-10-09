@@ -245,6 +245,7 @@ S.Dans ce répertoire, tapez la commande :
 ![install image disk](/Images/clone.png) 
 
 
+
 Il faut au préalable que vous ayez mis en place à cette adresse un fork du dépôt fourni.
 
 
