@@ -201,13 +201,13 @@ Q.Testez si l’application « git » est installée sur votre distribution, si 
 
 Q18. Comment savoir si « git » est déjà installé ?
 
-`git --version`
+>`git --version`
 
 >après avoir fait cette commande le bash ne trouve pas la commande
 
 Q19. Quelle(s) commande(s) utilisez-vous pour l’installer ?
 
-`sudo apt-get install git`
+>`sudo apt-get install git`
 
 
 Q20. Que veut dire « apt » ?
@@ -224,14 +224,25 @@ LABO EMSY ETML-ES
 
 
 PBY/NMI/SCA EMSY01 TP1A - InstVMLinux_v2_6.docx 5/5
-R.Créez un sous-répertoire « EMSY_TP1_XXX-YYY » dans le répertoire de votre utilisateur. Attention : Ici on veut que l’utilisateur (vous) ait les droits de lecture, d’écriture et d’exécution. Q22. Quel est le répertoire utilisateur ?
+R.Créez un sous-répertoire « EMSY_TP1_XXX-YYY » dans le répertoire de votre utilisateur. Attention : Ici on veut que l’utilisateur (vous) ait les droits de lecture, d’écriture et d’exécution. 
 
+Q22. Quel est le répertoire utilisateur ?
+
+>LDE
 
 Q23. Quelles sont les commandes que vous allez utiliser ?
 
+>`cd home/lde` ce qui signifie qu'on va dans le répertoire de l'utilisateur
+>
+>`mkdir EMSY_TP1_Bonny_Matheo`
+
+![install image disk](/Images/repertoire.png) 
 
 S.Dans ce répertoire, tapez la commande :
-git clone https://github.com/votreDepot/EMSY_TP1_Source
+
+`git clone https://github.com/votreDepot/EMSY_TP1_Source`
+
+![install image disk](/Images/clone.png) 
 
 
 Il faut au préalable que vous ayez mis en place à cette adresse un fork du dépôt fourni.
@@ -239,11 +250,17 @@ Il faut au préalable que vous ayez mis en place à cette adresse un fork du dé
 
 Q24. Qu’observez-vous dans votre répertoire ?
 
+> j'ai mon dossier .c mes images et mon Read.me
+
 T.Editez le fichier source .c avec l’éditeur de texte « nano ».
+
+>`nano`
+
 
 
 Réalisez un petit programme en C (par exemple de type « Hello world »).
 
+![install image disk](/Images/helloworld.png) 
 
 U.Vérifiez si le compilateur « gcc » est bien installé.
 
