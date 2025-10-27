@@ -266,7 +266,9 @@ Réalisez un petit programme en C (par exemple de type « Hello world »).
 U.Vérifiez si le compilateur « gcc » est bien installé.
 
 >`gcc --version`
->
+
+
+![install image disk](/Images/gcc.png) 
 Notez la version du logiciel.
 
 > la version 10.2.1
@@ -285,12 +287,17 @@ Remarque : « fichier » est à remplacer par le nom de votre choix
 
 Q25. Quels sont les fichiers qui ont été générés ?
 
-V.Entrez la commande suivante :./fichier
+>EMSY_TP1.o et EMSY_TP1
+
+
+V.Entrez la commande suivante :
+
+`./fichier`
 
 
 Q26. Que se passe-t-il ?
 
-
+Le code s'exécute et le string "Hello World"
 
 ## Tips 
 
