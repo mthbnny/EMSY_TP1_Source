@@ -269,6 +269,7 @@ U.Vérifiez si le compilateur « gcc » est bien installé.
 
 
 ![install image disk](/Images/gcc.png) 
+
 Notez la version du logiciel.
 
 > la version 10.2.1
