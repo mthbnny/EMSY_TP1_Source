@@ -297,7 +297,7 @@ V.Entrez la commande suivante :
 
 Q26. Que se passe-t-il ?
 
-Le code s'exécute et le string "Hello World"
+>Le code s'exécute et le string "Hello World" est affiché dans mon bash
 
 ## Tips 
 
