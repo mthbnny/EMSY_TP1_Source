@@ -265,17 +265,19 @@ Réalisez un petit programme en C (par exemple de type « Hello world »).
 
 U.Vérifiez si le compilateur « gcc » est bien installé.
 
-
+>`gcc --version`
+>
 Notez la version du logiciel.
 
+> la version 10.2.1
 
 Tapez les commandes suivantes :
 
 
-gcc -Wall -o fichier.o -c fichier.c
+`gcc -Wall -o fichier.o -c fichier.c`
 
 
-gcc -o fichier fichier.o
+`gcc -o fichier fichier.o`
 
 
 Remarque : « fichier » est à remplacer par le nom de votre choix
