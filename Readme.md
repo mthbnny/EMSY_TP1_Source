@@ -19,7 +19,7 @@ A. Lancez VMware Workstation Player (logiciel)
 
 B. Sélectionnez **Create a New Virtual Machine** 
 
-C. Placez le fichier `.iso` dans une repertoire connu : 
+C. Placez le fichier `.iso` dans un repertoire connu : 
 
 `C:\VosInitiales\VM\ISO`
 
@@ -29,7 +29,6 @@ D. Indiquez le chemin d’accès de l’image iso comme indiqué sous l’image 
 
 E. Choisir un nom d'OS : `Linux - Debian 11.x` 
 
-![OS name choice](/Images/OS_Choice.jpg) 
 
 F. Nommez la machine virtuelle : `SparkyLinux-VosInitiales` 
 
@@ -39,7 +38,7 @@ G. Creez un disque virtuel -> capcité : **20GB**
 
 ![Virtual disk](/Images/VirtualDisk.jpg) 
 
-> remarque$$^2$$ : ci-dessous, la configuration de la VM 
+> remarque: ci-dessous, la configuration de la VM 
 
 ![Virtual disk](/Images/VM_Config.jpg) 
 
@@ -79,7 +78,8 @@ I. Affichez le contenu de la racine avec la commande : `ls –l`
 
 Q5. Que signifie l'option `-l` avec la commande `ls` 
 
->ça liste les fichiers du système
+>le `ls` liste les fichiers du système
+
 >et le `-l` liste les options du fichier
 
 Q6. Décrypter la ligne où se trouve le répertoire **home**    
@@ -133,23 +133,24 @@ L. Tapez la commande `ls -l /dev/sda`
 Q11. Que signifie **sda** ? 
 
 > SDA signifie que c'est le premier disque dur SCSI le disque dur principal(small Computer system Interface)
+
 > le disque entier de la VM
 
 Q12. Décrypter la réponse après avoir taper la commande `ls -l /dev/sda` -> voir résultat point 13.
 
 > b: indique un fichier de périphérique bloc. rw-rw---- : les permissions du fichier. 1 : le nombre de liens physiques vers le fichier . root: le propriétaire. disk: le groupe auquel appartient le fichier 8,0: numéros majeur et mineur.
-> 
+
 > la date et l'heure et enfin le disque entier
 
 
 Q13. Quelle est la taille de disque minimum recommandée pour installer la distribution Sparky ?
 
 >10G pour la recommandée standard
->
+
 >20G pour la multimédia
->
+
 >2G pou la version en ligne (CLI)
->
+
 ![Virtual disk](/Images/console.png) 
 
 
@@ -180,6 +181,7 @@ N. Après l’installation de Linux, prenez une capture d’écran du démarrage
 O.Trouvez la ou les lignes de commande permettant de changer le clavier (clavier suisse romand trouvable sous « German (Switzerland)) et procédez à la configuration du clavier.
 
 `sudo nano /etc/default/keyboard`
+
 ![install image disk](/Images/language.png) 
 
 >afin d'obtenir les modification il faut redémarrer la VM
